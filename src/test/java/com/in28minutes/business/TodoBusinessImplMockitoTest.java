@@ -21,7 +21,6 @@ public class TodoBusinessImplMockitoTest {
 
 	@Test
 	public void usingMockito() {
-		System.out.println("Testing usingMockito");
 		TodoService todoService = mock(TodoService.class);
 		List<String> allTodos = Arrays.asList("Learn Spring MVC",
 				"Learn Spring", "Learn to Dance");
